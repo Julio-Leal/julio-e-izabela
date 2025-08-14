@@ -64,5 +64,7 @@ function calcularTempoNoivado () {
     document.getElementById("tempo-noivado").textContent = anos;
 }
 
-window.onload = calcularTempoNoivado;
-window.onload = calcularTempoNamoro;
+window.onload = function () {
+    calcularTempoNamoro();
+    calcularTempoNoivado();
+}
