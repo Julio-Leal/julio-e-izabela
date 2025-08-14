@@ -5,9 +5,21 @@
 }
 
 body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
     background-color: #1C1C1C;
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
+    
+}
+
+.container-audio {
+
+}
+
+#principal {
+    background-color: transparent;
 }
 
 .container-slider {
