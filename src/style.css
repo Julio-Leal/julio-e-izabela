@@ -6,28 +6,38 @@
 
 body {
     display: flex;
+    height: 100vh;
+    width: 100vw;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     color: white;
     background-color: #1C1C1C;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.container-audio {
+.background-animated-heart {
+    position: fixed;
+    z-index: -1;
+}
 
+.container-audio {
 }
 
 #principal {
+    justify-content: center;
     background-color: transparent;
 }
 
 .container-slider {
     display: flex;
     width: 100%;
-    min-height: 100vh;
+    min-height: 550px;
     align-items: center;
     justify-content: center;
     gap: 1rem;
+    box-shadow: 0px 0px 10px black;
+    background-color: transparent;
 }
 
 .container-images {
@@ -68,10 +78,12 @@ body {
 }
 
 .texto {
-    width: 300px;
-    box-shadow: 0px 0px 10px black;
+    width: 400px;
+    box-shadow: 0px -5px 10px black;
     padding: 10px;
     border-radius: 10px;
+    font-size: 0.8rem;
+    text-align: center;
 }
 
 h1 {
